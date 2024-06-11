@@ -14,3 +14,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0070-climbing-stairs) |
+# Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0070-climbing-stairs) |
+# Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0070-climbing-stairs) |
