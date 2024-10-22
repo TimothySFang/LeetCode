@@ -69,4 +69,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0200-number-of-islands) |
+## Two Pointers
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0005-longest-palindromic-substring) |
+## String
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0005-longest-palindromic-substring) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
