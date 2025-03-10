@@ -3,11 +3,7 @@ class Solution:
         if right < left or matrix[left][0] > target or matrix[right][-1] < target:
             return -1
         middle = left + ((right - left) // 2)
-        if matrix[left][0] <= target <= matrix[left][-1]:
-            return left
-        elif matrix[right][0] <= target <= matrix[right][-1]:
-            return right
-        elif (matrix[middle][0] <= target <= matrix[middle][-1]):
+        if (matrix[middle][0] <= target <= matrix[middle][-1]):
             return middle
         elif (matrix[middle][0] > target):
             # search left
