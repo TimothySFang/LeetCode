@@ -3,7 +3,6 @@ class Solution:
         visited = {}
         for n in nums:
             if n in visited:
-                visited[n] += 1
                 return True
             else:
                 visited[n] = 1
