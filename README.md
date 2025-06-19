@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0169-majority-element) |
@@ -44,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0242-valid-anagram) |
@@ -55,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0242-valid-anagram) |
@@ -90,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
