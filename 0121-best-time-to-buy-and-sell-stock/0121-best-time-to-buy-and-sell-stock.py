@@ -9,8 +9,8 @@ class Solution:
                 upper = 0
             if p > upper:
                 upper = p
-            if upper - lower > max_prof:
-                max_prof = upper - lower
+                if upper - lower > max_prof:
+                    max_prof = upper - lower
         return max_prof
 
             
