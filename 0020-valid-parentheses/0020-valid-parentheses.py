@@ -1,12 +1,10 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        queue = []
-        bracket_pairs = {"(": ")", "{": "}", "[": "]"}
-        for c in s:
-            if c in bracket_pairs:
-                queue.append(c)
-            else:
-                if len(queue) <= 0 or c != bracket_pairs[queue.pop()]:
-                    return False
-
-        return len(queue) == 0
+        parenthesis_set = { '(': ')', '[':']', '{':'}'}
+        stack = []
+        for p in s:
+            if p in parenthesis_set:
+                stack.append(parenthesis_set[p])
+            elif len(stack) == 0 or stack.pop() != p:
+                return False
+        return len(stack) == 0
