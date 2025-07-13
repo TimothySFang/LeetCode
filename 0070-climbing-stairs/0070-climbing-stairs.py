@@ -9,6 +9,4 @@ class Solution:
         memo = {}
         memo[1] = 1
         memo[2] = 2
-        memo[3] = 3
-        memoizeStairs(memo, n)
-        return memo[n]
+        return memoizeStairs(memo, n)
