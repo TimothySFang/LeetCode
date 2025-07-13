@@ -1,18 +1,15 @@
-class Solution(object):
-    def search(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: int
-        """
-        l, r = 0, len(nums) - 1
+class Solution:
+    def binSearch(self, nums: List[int], left: int, right: int, target: int) -> int:
+        if left > right:
+            return -1
+        middle = ((left + right) // 2)
+        if target == nums[middle]:
+            return middle
+        elif nums[middle] < target:
+            return self.binSearch(nums, middle + 1, right, target)
+        else:
+            return self.binSearch(nums, left, middle - 1, target)
 
-        while l <= r:
-            m = l + ((r - l) // 2)
-            if nums[m] > target:
-                r = m - 1
-            elif nums[m] < target:
-                l = m + 1
-            else:
-                return m
-        return -1
+    def search(self, nums: List[int], target: int) -> int:
+        return self.binSearch(nums, 0, len(nums) - 1, target)
+        
