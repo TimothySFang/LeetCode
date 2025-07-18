@@ -6,7 +6,7 @@ class Solution:
         speed_ratio = []
 
         for car in combined:
-            speed_ratio.append((target - car[0]) / car[1])
+            speed_ratio.append(-(-(target - car[0]) / car[1]))
         
         print(speed_ratio)
         prev = float('-inf')
