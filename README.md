@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0217-contains-duplicate) |
 | [0747-min-cost-climbing-stairs](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0792-binary-search) |
+| [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
 ## Hash Table
 |  |
 | ------- |
@@ -67,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0242-valid-anagram) |
+| [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
 ## Counting
 |  |
 | ------- |
@@ -126,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
 ## Binary Search
 |  |
 | ------- |
@@ -165,4 +168,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0226-invert-binary-tree) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
 <!---LeetCode Topics End-->
