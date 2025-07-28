@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -150,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0078-subsets) |
 ## Memoization
 |  |
 | ------- |
@@ -176,4 +178,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
