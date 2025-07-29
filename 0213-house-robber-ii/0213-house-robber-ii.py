@@ -1,31 +1,26 @@
-class Solution(object):
-    def rob(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        memo_array_1 = {}
-        memo_array_2 = {}
-
-        if len(nums) == 1:
-            return nums[0]
-        if len(nums) == 2:
-            return max(nums[0], nums[1])
-
-        for i in range(1, len(nums)):
-            if i == 1:
-                memo_array_1[i] = nums[i]
-            elif i == 2:
-                memo_array_1[i] = max(memo_array_1[i - 1], nums[i])
-            else:
-                memo_array_1[i] = max(memo_array_1[i - 2] + nums[i], memo_array_1[i - 1])
+class Solution:
+    def rob(self, nums: List[int]) -> int:
         
-        for i in range(0, len(nums) - 1):
-            if i == 0:
-                    memo_array_2[i] = nums[i]
-            elif i == 1:
-                memo_array_2[i] = max(memo_array_2[i - 1], nums[i])
-            else:
-                memo_array_2[i] = max(memo_array_2[i - 2] + nums[i], memo_array_2[i - 1])
+        if len(nums) == 0 :
+            return 0
+        elif len(nums) == 1:
+            return nums[0]
+        elif len(nums) <= 3:
+            return max(nums)
 
-        return max(memo_array_1[len(nums) - 1], memo_array_2[len(nums) - 2])
+        dp_oneInclusive = [0] * (len(nums) - 1)
+        dp_twoInclusive = [0] * (len(nums) - 1)
+
+        dp_oneInclusive[0] = nums[0]
+        dp_oneInclusive[1] = max(nums[0], nums[1])
+        dp_twoInclusive[0] = nums[1]
+        dp_twoInclusive[1] = max(nums[1], nums[2])
+
+        for i in range(2, len(nums) - 1):
+            dp_oneInclusive[i] = max(dp_oneInclusive[i - 1], (dp_oneInclusive[i - 2] + nums[i]))
+            dp_twoInclusive[i] = max(dp_twoInclusive[i - 1], (dp_twoInclusive[i - 2] + nums[i + 1]))
+
+        print(dp_twoInclusive)
+        return max(dp_twoInclusive[-1], dp_oneInclusive[-1]) 
+        
+
