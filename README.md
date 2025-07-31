@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0217-contains-duplicate) |
+| [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0747-min-cost-climbing-stairs](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
@@ -59,11 +60,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
 |  |
 | ------- |
@@ -72,11 +75,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## Depth-First Search
 |  |
@@ -188,4 +193,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0078-subsets) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
