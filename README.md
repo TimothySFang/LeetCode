@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
 | [0747-min-cost-climbing-stairs](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
@@ -93,21 +94,25 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
 ## Matrix
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
 ## Two Pointers
 |  |
 | ------- |
