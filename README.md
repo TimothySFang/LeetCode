@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
+| [0739-daily-temperatures](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
@@ -152,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0739-daily-temperatures](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
 ## Binary Search
 |  |
@@ -201,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Stack
 |  |
 | ------- |
+| [0739-daily-temperatures](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
 ## Bit Manipulation
 |  |
