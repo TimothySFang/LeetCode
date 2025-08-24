@@ -3,19 +3,30 @@ class Solution(object):
         """
         :type board: List[List[str]]
         :rtype: bool
-        """ 
-        row = collections.defaultdict(set)
-        col = collections.defaultdict(set)
-        cube = collections.defaultdict(set)
+        """
+        cols = [set() for _ in range(9)]
 
-        for x in range(9):
-            for y in range(9):
-                if (board[x][y]== "."):
+        for y in range(9):
+            row = set()
+            for x in range(9):
+                if board[y][x] == ".":
                     continue
-                if (board[x][y] in row[x] or board[x][y] in col[y] or board[x][y] in cube[(x // 3, y // 3)]):
+                if board[y][x] in row:
                     return False
-                
-                row[x].add(board[x][y])
-                col[y].add(board[x][y])
-                cube[(x // 3, y // 3)].add(board[x][y])
+                if board[y][x] in cols[x]:
+                    return False
+                cols[x].add(board[y][x])
+                row.add(board[y][x])
+        
+        for i in (0, 3, 6):
+            for j in (0, 3, 6):
+                visited = set()
+                for x in range(i, i + 3):
+                    for y in range(j, j + 3):
+                        if board[y][x] == ".":
+                            continue
+                        elif board[y][x] in visited:
+                            return False
+                        else:
+                            visited.add(board[y][x])
         return True
