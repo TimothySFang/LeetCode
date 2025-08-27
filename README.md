@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0792-binary-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0907-koko-eating-bananas) |
+| [1127-last-stone-weight](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1127-last-stone-weight) |
 ## Hash Table
 |  |
 | ------- |
@@ -231,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [1127-last-stone-weight](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
 |  |
 | ------- |
