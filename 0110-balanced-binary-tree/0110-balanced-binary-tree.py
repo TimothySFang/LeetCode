@@ -6,18 +6,21 @@
 #         self.right = right
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
-        self.flag = True
-        def height(root):
-            if not root:
-                return 0
-            
-            left = height(root.left)
-            right = height(root.right)
-
-            if left - right > 1 or right - left > 1:
-                self.flag = False
+        def height(node: Optional[TreeNode]) -> int:
+            if not node:
                 return 0
 
-            return max(left, right) + 1
-        height(root)
-        return self.flag
+            left = height(node.left)
+            if left == -1:            # left subtree already unbalanced → bubble up
+                return -1
+
+            right = height(node.right)
+            if right == -1:           # right subtree already unbalanced → bubble up
+                return -1
+
+            if abs(left - right) > 1: # this node unbalanced
+                return -1
+
+            return 1 + max(left, right)
+
+        return height(root) != -1
