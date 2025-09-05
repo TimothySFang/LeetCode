@@ -1,12 +1,6 @@
-class Solution(object):
-    def singleNumber(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        if len(nums) <= 1:
-            return nums[0]
-        result = 0
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        res = 0
         for n in nums:
-            result = result ^ n
-        return result
+            res = res ^ n
+        return res
