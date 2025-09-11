@@ -1,29 +1,16 @@
-from collections import defaultdict
-class Solution(object):
-    def isHappy(self, n):
-        """
-        :type n: int
-        :rtype: bool
-        """
-        visited = set()
-        
+class Solution:
+    def isHappy(self, n: int) -> bool:
+        def happyChecker(n, visited):
+            curr_sum = 0
+            for digit in str(n):
+                curr_sum += int(digit) * int(digit)
 
-        while n not in visited:
-            visited.add(n)
-            n = self.getSumSquares(n)
-            if n == 1:
+            if curr_sum == 1:
                 return True
+            elif curr_sum in visited:
+                return False
+            else:
+                visited[curr_sum] = 1
+                return happyChecker(curr_sum, visited)
         
-        return False
-
-    def getSumSquares(self, n):
-        accumulator = 0
-        print(n)
-        while n:
-            digit = n % 10
-            digit = digit ** 2
-            accumulator += digit
-            n = n // 10
-        return accumulator
-
-            
+        return happyChecker(n, {})
