@@ -1,10 +1,16 @@
+from typing import List
+
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
-        visited = {}
+        n = len(nums)
+        xor_all = 0
 
-        for n in range(len(nums)):
-            visited[nums[n]] = 1
-        
-        for i in range(len(visited) + 1):
-            if i not in visited:
-                return i
+        # XOR all expected values: 0..n
+        for i in range(n + 1):
+            xor_all ^= i
+
+        # XOR with all values in the list
+        for num in nums:
+            xor_all ^= num
+
+        return xor_all
