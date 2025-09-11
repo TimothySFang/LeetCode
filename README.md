@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0049-group-anagrams) |
+| [0066-plus-one](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -202,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0202-happy-number) |
