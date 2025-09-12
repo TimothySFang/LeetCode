@@ -6,9 +6,8 @@ class Solution:
             middle = ((end - start) // 2) + start
             middle_val, start_val, end_val = nums[middle], nums[start], nums[end]
 
-            # print(start_val, end_val, middle_val)
             if end_val < start_val and middle_val < start_val:
-                # either search left or return, idk yet
+                # search left
                 return custom_binsearch(nums, start, middle)
             elif end_val < start_val and middle_val >= start_val:
                 # search right
