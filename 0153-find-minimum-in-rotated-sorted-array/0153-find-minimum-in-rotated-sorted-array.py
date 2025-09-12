@@ -7,11 +7,6 @@ class Solution:
             middle_val, start_val, end_val = nums[middle], nums[start], nums[end]
 
             # print(start_val, end_val, middle_val)
-            if nums[start] <= nums[end]:
-                return nums[start]
-            # If narrowed to one element, return it
-            if start == end:
-                return nums[start]
             if end_val < start_val and middle_val < start_val:
                 # either search left or return, idk yet
                 return custom_binsearch(nums, start, middle)
