@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0066-plus-one) |
@@ -220,6 +221,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0022-generate-parentheses](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0078-subsets) |
 ## Memoization
 |  |
