@@ -1,22 +1,24 @@
-class Solution:
-    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        visited = set()
-        max_size = 0
+class Solution(object):
+    def maxAreaOfIsland(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
+        
+        visited = {}
 
         def dfs(y, x):
-            if not (0 <= y < len(grid) and 0 <= x < len(grid[0])):
+            if (y < 0 or x < 0 or y >= len(grid) or x >= len(grid[0]) or (y, x) in visited or grid[y][x] == 0):
                 return 0
-            if grid[y][x] != 1 or (y, x) in visited:
-                return 0
-                
-            visited.add((y, x))
             
-            return (1 + dfs(y + 1, x) + dfs(y - 1, x) + dfs(y, x + 1) + dfs(y, x - 1))
-
+            visited[(y, x)] = 1
+            return 1 + dfs(y + 1, x) + dfs(y - 1, x) + dfs(y, x + 1) + dfs(y, x - 1)
+            
+        max_area = 0
 
         for y in range(len(grid)):
             for x in range(len(grid[0])):
-                if (y, x) not in visited and grid[y][x] == 1:
-                    max_size = max(max_size, dfs(y, x))
-        return max_size
-
+                max_area = max(max_area, dfs(y, x))
+                
+        return max_area
+        
