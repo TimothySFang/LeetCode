@@ -15,9 +15,7 @@ class Solution(object):
             for i in range(len(nums)):
                 if not used[i]:
                     used[i] = True
-                    path.append(nums[i])
-                    backtrack(path)
+                    backtrack(path + [nums[i]])
                     used[i] = False
-                    path.pop()
         backtrack([])
         return result
