@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -113,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0079-word-search) |
 | [0100-same-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0110-balanced-binary-tree) |
@@ -140,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
 ## Two Pointers
@@ -164,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
@@ -226,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0090-subsets-ii) |
 ## Memoization
 |  |
