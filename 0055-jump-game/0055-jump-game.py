@@ -1,12 +1,11 @@
-class Solution(object):
-    def canJump(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: bool
-        """
-        goal = len(nums) - 1
-        for i in range(len(nums) - 1, -1, -1):
-            if nums[i] + i >= goal:
-                goal = i
-        return True if goal == 0 else False
+class Solution:
+    def canJump(self, nums: List[int]) -> bool:
+        max_reach = 0
         
+        for i, jump in enumerate(nums):
+            if i > max_reach:
+                return False  # We hit a point we can't even reach
+            
+            max_reach = max(max_reach, i + jump)
+        
+        return True
