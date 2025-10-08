@@ -87,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0387-first-unique-character-in-a-string](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0567-permutation-in-string) |
+| [1023-time-based-key-value-store](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -173,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0387-first-unique-character-in-a-string](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0567-permutation-in-string) |
+| [1023-time-based-key-value-store](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -208,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0268-missing-number) |
 | [0792-binary-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0907-koko-eating-bananas) |
+| [1023-time-based-key-value-store](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Sliding Window
 |  |
 | ------- |
@@ -310,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1023-time-based-key-value-store](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Binary Search Tree
 |  |
 | ------- |
