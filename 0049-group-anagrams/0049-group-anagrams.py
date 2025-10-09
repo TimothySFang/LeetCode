@@ -1,18 +1,22 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        grouped_anagrams = {}
-        for string in strs:
-            curr_str = [0] * 26
-            for c in string:
-                curr_str[ord(c) - ord('a')] += 1
-            curr_str = tuple(curr_str)
+        groups = {}
+        for s in strs:
+            string_array = []
+            for c in s:
+                string_array.append(c)
             
-            if curr_str in grouped_anagrams:
-                grouped_anagrams[curr_str].append(string)
-            else:
-                grouped_anagrams[curr_str] = [string]
+            string_array = sorted(string_array, key=lambda x: ord('a') - ord(x))
+            anagram_key = ""
+            for c in string_array:
+                anagram_key += c
 
-        res = []
-        for key in grouped_anagrams:
-            res.append(grouped_anagrams[key])
-        return res
+            if anagram_key in groups:
+                groups[anagram_key].append(s)
+            else:
+                groups[anagram_key] = [s]
+        result = []
+        for lists in groups:
+            result.append(groups[lists])
+
+        return result
