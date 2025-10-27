@@ -4,34 +4,31 @@ class Solution:
         # initialize prereq_dict
         prereq_dict = defaultdict(list)
         result = []
+        indeg = [0] * numCourses
 
-        for p in prerequisites:
-            course = p[0]
-            prereq = p[1]
-            prereq_dict[course].append(prereq) 
+        for course, prereq in prerequisites:
+            prereq_dict[prereq].append(course)
+            indeg[course] += 1
         
-        visited = set()
-        path = set()
+        q = deque(i for i in range(numCourses) if indeg[i] == 0)
+        # add all to queue that have 0 prereqs
+        order = []
 
-        def dfs(curr_node):
-            if curr_node in path:
-                return False
+        while q:
+            curr_node = q.popleft()
+            order.append(curr_node)
+            
+            for course in prereq_dict[curr_node]:
+                indeg[course] -= 1
+                if indeg[course] == 0:
+                    q.append(course)
 
-            if curr_node in visited:
-                return True
+        if len(order) == numCourses:
+            return order
+        else:
+            return []
 
-            path.add(curr_node)
+        
 
-            for prereq in prereq_dict[curr_node]:
-                if not dfs(prereq):
-                    return False
-                
-            path.remove(curr_node)
-            visited.add(curr_node)
-            result.append(curr_node)
-            return True
-
-        for i in range(numCourses):
-            if not dfs(i):
-                return []
-        return result
+        
+        
