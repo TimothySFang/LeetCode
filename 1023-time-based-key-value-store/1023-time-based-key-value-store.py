@@ -1,38 +1,29 @@
 class TimeMap:
 
     def __init__(self):
-        self.store = {}
+        self.store = defaultdict(list)  # key -> [(timestamp, value)]
 
     def set(self, key: str, value: str, timestamp: int) -> None:
-        if key not in self.store:
-            self.store[key] = [(timestamp, value)]
-        else:
-            self.store[key].append((timestamp, value))
-
+        # timestamps are guaranteed to be non-decreasing
+        self.store[key].append((timestamp, value))
 
     def get(self, key: str, timestamp: int) -> str:
-        if key in self.store:
-            values = self.store[key]
-            
-            # bisect / binsearch
+        arr = self.store.get(key, [])
+        if not arr:
+            return ""
 
-            left, right = 0, len(values) - 1
-            result = ""
-            while left <= right:
-                middle = (left + right) // 2
-                ts, val = values[middle]
-                if ts <= timestamp:
-                    result = val
-                    #search right
-                    left = middle + 1
-                else:
-                    right = middle - 1
-            
-            return result
+        # find index of first element with timestamp > given timestamp
+        # we add chr(127) to ensure correct tuple comparison
+        i = bisect_right(arr, (timestamp, chr(127)))
 
-        return ""
+        # if i == 0, all timestamps are greater than target -> return ""
+        if i == 0:
+            return ""
 
-    
+        # otherwise, the answer is at i-1
+        return arr[i - 1][1]
+
+
 # Your TimeMap object will be instantiated and called as such:
 # obj = TimeMap()
 # obj.set(key,value,timestamp)
