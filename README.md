@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0792-binary-search) |
+| [0860-design-circular-queue](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0860-design-circular-queue) |
 | [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1036-rotting-oranges) |
@@ -227,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+| [0860-design-circular-queue](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0860-design-circular-queue) |
 ## Stack
 |  |
 | ------- |
@@ -284,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0021-merge-two-sorted-lists](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0143-reorder-list) |
+| [0860-design-circular-queue](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0860-design-circular-queue) |
 ## Recursion
 |  |
 | ------- |
@@ -358,6 +361,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0860-design-circular-queue](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0860-design-circular-queue) |
 | [1023-time-based-key-value-store](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Binary Search Tree
 |  |
