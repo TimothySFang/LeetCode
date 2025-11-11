@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0355-design-twitter) |
 | [0387-first-unique-character-in-a-string](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0567-permutation-in-string) |
@@ -286,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0021-merge-two-sorted-lists](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0143-reorder-list) |
+| [0355-design-twitter](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0355-design-twitter) |
 | [0860-design-circular-queue](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0860-design-circular-queue) |
 ## Recursion
 |  |
@@ -338,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1127-last-stone-weight](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
@@ -360,6 +363,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0355-design-twitter](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0860-design-circular-queue](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0860-design-circular-queue) |
 | [1023-time-based-key-value-store](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1023-time-based-key-value-store) |
