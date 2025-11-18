@@ -1,28 +1,26 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         visited = set()
-        island_count = 0
-        def bfs(y, x):
-            if y < 0 or y >= len(grid) or x < 0 or x >= len(grid[0]):
-                return
-            if (y, x) in visited:
-                return
-            else: 
-                visited.add((y, x))
+        count = 0
+        directions = [(0, -1), (-1, 0), (1, 0), (0, 1)]
 
-            if grid[y][x] == "1":
-                bfs(y + 1, x)
-                bfs(y - 1, x)
-                bfs(y, x + 1)
-                bfs(y, x - 1)
+        def bfs(r, c):
+            if (r, c) in visited:
+                return
+            
+            visited.add((r, c))
+
+            for dr, dc in directions:
+                nr, nc = dr + r, dc + c
+                if 0 <= nr < len(grid) and 0 <= nc < len(grid[0]) and grid[nr][nc] == "1":
+                    bfs(nr, nc)
+
+
+
+        for r in range(len(grid)):
+            for c in range(len(grid[0])):
+                if (r, c) not in visited and grid[r][c] == "1":
+                    bfs(r, c)
+                    count += 1
         
-        for y in range(len(grid)):
-            for x in range(len(grid[y])):
-                if (y, x) in visited:
-                    continue
-                elif grid[y][x] == "1":
-                    island_count += 1
-                    bfs(y, x)
-                else:
-                    visited.add((y, x))
-        return island_count
+        return count
