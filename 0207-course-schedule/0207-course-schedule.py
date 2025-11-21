@@ -1,29 +1,26 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        prereq_graph = defaultdict(list)
-        for course, prereq in prerequisites:
-            prereq_graph[prereq].append(course)
-
-        
+        course_dict = defaultdict(list)
         visited = set()
-        path = set()
-
-        def dfs(node):
-            if node in path:
+        for course, prereq in prerequisites:
+            course_dict[prereq].append(course)
+        
+        def dfs(curr_node, path):
+            prereqs = course_dict[curr_node]
+            if curr_node in path:
                 return False
-            if node in visited:
+            if curr_node in visited:
                 return True
 
-            path.add(node)
-            for prereqs in prereq_graph[node]:
-                if not dfs(prereqs):
+            for p in prereqs:
+                if not dfs(p, path + [curr_node]):
                     return False
-            path.remove(node)
-            visited.add(node)
-
+            visited.add(curr_node)
             return True
 
-        for course in range(numCourses):
-            if not dfs(course):
+
+        for n in range(numCourses):
+            # call graph traversal algo
+            if not dfs(n, []):
                 return False
         return True
