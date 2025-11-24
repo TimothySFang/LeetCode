@@ -1,26 +1,33 @@
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
-        
-        cost = [float('inf')] * (n + 1)
-        cost[k] = 0
         graph = defaultdict(list)
-
-        for t in times:
-            graph[t[0]].append((t[1], t[2])) #source node = (target node, weight)
-
-        heap = [(0, k)]
+        for u, v, w in times:
+            graph[u].append((v, w))
+        
+        cost = [float('inf')] * (n + 1) # cost array at n + 1 length because nodes go from 1 to n
+        cost[k] = 0
+        heap = [(0, k)] # heap for graph traversal where each value is (cost, node) 
 
         while heap:
-            curr_time, node = heapq.heappop(heap)
+            weight, curr_node = heapq.heappop(heap)
 
-            if curr_time > cost[node]:
+            if weight > cost[curr_node]:
+                # reduce looping if this one is already the "heavier path"
                 continue
-    
-            for u, w in graph[node]:
-                # u = node, w = weight
-                if curr_time + w < cost[u]:
-                    cost[u] = curr_time + w
-                    heapq.heappush(heap, (curr_time + w, u))
-        
 
-        return -1 if max(cost[1:]) == float('inf') else max(cost[1:])
+            for v, w in graph[curr_node]:
+                # looping through all the neighbor nodes of curr_node
+
+                if w + weight < cost[v]:
+                    # this path is shorter
+                    cost[v] = w + weight
+                    heapq.heappush(heap, (w + weight, v))
+        print(cost)
+        for i in range(1, len(cost)):
+            if cost[i] >= float('inf'):
+                return -1
+    
+        return max(cost[1:])
+
+
+
