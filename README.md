@@ -140,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0572-subtree-of-another-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
+| [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
 ## Breadth-First Search
 |  |
@@ -157,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0322-coin-change) |
 | [0684-redundant-connection](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
+| [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
 | [1036-rotting-oranges](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1036-rotting-oranges) |
 ## Union Find
@@ -345,6 +347,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0355-design-twitter) |
+| [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1127-last-stone-weight](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1127-last-stone-weight) |
@@ -396,6 +399,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0684-redundant-connection](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0684-redundant-connection) |
+| [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
 ## Topological Sort
 |  |
@@ -405,5 +409,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
