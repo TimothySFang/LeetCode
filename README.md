@@ -75,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0907-koko-eating-bananas](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1127-last-stone-weight) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Hash Table
 |  |
 | ------- |
@@ -169,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0200-number-of-islands) |
 | [0684-redundant-connection](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Matrix
 |  |
 | ------- |
@@ -401,6 +403,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
 | ------- |
@@ -411,4 +414,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
