@@ -143,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -161,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1036-rotting-oranges](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1036-rotting-oranges) |
 ## Union Find
 |  |
@@ -233,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0338-counting-bits](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0338-counting-bits) |
 | [0647-palindromic-substrings](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Queue
 |  |
 | ------- |
@@ -351,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0355-design-twitter](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0355-design-twitter) |
 | [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1127-last-stone-weight](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
@@ -403,6 +407,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
@@ -414,6 +419,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
