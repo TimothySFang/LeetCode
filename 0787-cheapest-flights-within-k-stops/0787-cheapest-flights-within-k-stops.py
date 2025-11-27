@@ -1,28 +1,32 @@
 class Solution:
-    def findCheapestPrice(
-        self, n: int, flights: List[List[int]], src: int, dst: int, k: int
-    ) -> int:
-        # andy's solution
-        adj = [[] for _ in range(n)]
-        for frm, to, price in flights:
-            adj[frm].append((to, price))
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
+        # djikstra's with edge_count
+        # utilize min-heap to ensure the first time we find the solution, its the cheapest.
 
-        priority_queue = [(0, src, 0)]  # (cost, cur_node, stops_left_to_take)
-        steps = [math.inf] * n
+        graph = defaultdict(list)
+        steps = [float('inf')] * (n)
+        heap = [(0, src, 0)]
+        # steps[src] = 0
 
-        while priority_queue:
-            cost, cur_node, steps_taken = heapq.heappop(priority_queue)
+        for fro, to, price in flights:
+            graph[fro].append((price, to))
+
+        while heap:
+            weight, curr_node, edge_count = heapq.heappop(heap)
             
-            if steps_taken >= steps[cur_node]:
+            if edge_count > k + 1:
                 continue
-            if steps_taken > k + 1:
-                continue
-            if cur_node == dst:
-                return cost
+            
+            if edge_count >= steps[curr_node]:
+                continue # essentially, if we have reached the current node in the past, it will always have been cheaper...
 
-            steps[cur_node] = steps_taken
+            if curr_node == dst:
+                return weight
 
-            for next_node, flight_cost in adj[cur_node]:
-                heapq.heappush(priority_queue, (cost + flight_cost, next_node, steps_taken + 1))
+            steps[curr_node] = edge_count
 
+            for new_cost, new_node in graph[curr_node]:
+                cost = new_cost + weight
+                heapq.heappush(heap, (cost, new_node, edge_count + 1))
+                
         return -1
