@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0860-design-circular-queue](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0860-design-circular-queue) |
 | [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0907-koko-eating-bananas) |
+| [0973-k-closest-points-to-origin](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1127-last-stone-weight) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
@@ -105,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0190-reverse-bits](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 ## Sorting
 |  |
 | ------- |
@@ -116,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0883-car-fleet](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0883-car-fleet) |
+| [0973-k-closest-points-to-origin](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 ## Counting
 |  |
 | ------- |
@@ -275,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0268-missing-number) |
+| [0973-k-closest-points-to-origin](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 ## Backtracking
 |  |
 | ------- |
@@ -356,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0973-k-closest-points-to-origin](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
 |  |
@@ -365,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -424,4 +430,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
