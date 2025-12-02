@@ -147,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0743-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -167,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1036-rotting-oranges](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1036-rotting-oranges) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Union Find
 |  |
 | ------- |
@@ -322,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -335,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Timothy-S-Fang/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Timothy-S-Fang/LeetCode/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Monotonic Stack
 |  |
 | ------- |
